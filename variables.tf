@@ -1,9 +1,9 @@
-variable "vpc_name" {
+variable "aws_region" {
   type    = string
-  default = "testvpc"
+  default = "ap-south-1"
 }
 
-variable "vpc_name" {
+variable "vpcname" {
   type    = string
   default = "testvpc"
 }
