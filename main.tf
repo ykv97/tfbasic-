@@ -40,7 +40,7 @@ resource "aws_subnet" "public" {
 
 
 resource "aws_route_table" "internet" {
-  vpc_id = aws_vpc.example.id
+  vpc_id = aws_vpc.main.id
   tags = {
     Name = "internet"
   }
