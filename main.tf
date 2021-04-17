@@ -20,7 +20,7 @@ resource "aws_vpc" "main" {
 }
 
 resource "aws_subnet" "private" {
-  vpc_id = aws_vpc.main.vpc_id
+  vpc_id = aws_vpc.main.id
   cidr_block = "10.0.0.0/24"
   availability_zone = "ap-south-1a"
    tags = {
