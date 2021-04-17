@@ -1,9 +1,5 @@
-variable "aws_region" {
-  type    = string
-  default = "ap-south-1"
-}
-
-variable "vpcname" {
-  type    = string
-  default = "testvpc"
+variable "instance_name" {
+  description = "Value of the Name tag for the EC2 instance"
+  type        = string
+  default     = "ExampleInstance"
 }
