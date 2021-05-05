@@ -1,4 +1,12 @@
-variable "instance_name" {
-  description = "Value of the Name tag for the EC2 instance"
-  type        = string
+variable "subnet_prefix" {
+  description = "cidr block for the subnet"
+}
+
+
+variable "region" {
+  type = string
+}
+
+variable "az1" {
+    type = string
 }
